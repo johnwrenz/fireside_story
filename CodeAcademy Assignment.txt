@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title>John W. Renz</title>
+	</head>
+	<body style="background-color:lightblue"> <img src="https://www.linkedin.com/in/johnwrenz/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B3hwe1GZbT62aSjmISfzm0g%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-identity_profile_photo"/>  
+	<p>MY HOMETOWN IS SAINT LOUIS, MISSOURI</p>
+	    <ul style="font-family:Arial;font-size:20px">POSITIONS HELD</ul>
+	        <ol>
+	        <li>PLANT MANAGER - GATES RUBBER</li>
+	        <li>DIRECTOR OF OPERATIONS - ARIZON COMPANIES</li>
+	        <li>PLANT MANAGER - SAINT GOBAIN</li>
+	        <li>CEO - ISC CAPITAL</li>
+	        </ol>
+	    <ul><strong><em>CAREER ACCOMPLISHMENTS</strong></em><ul>
+	    <ul>EDUCATIONAL BACKGROUND    </ul>
+	       <ul> <li>CHAMINADE COLLEGE PREP</li>
+	        <li>MISSOURI UNIVERSITY OF SCIENCE AND TECHNOLOGY / UMR</li>
+	        <li>WEBSTER UNIVERSITY</li>
+	        <li>CPCC</li>
+	        <li>LAUNCHCODE</li></ul>
+	  
+	    
+	    <ul>INTERESTS          </ul>
+	       <ol> <li>LEARNING TO CODE</li>
+	        <li>COLLECTIBLE PORSCHE AUTOMOBILES</li>
+	        <li>PLAYING THE GUITAR</li></ol>
+	        
+	    <ul>LOCATIONS THAT I HAVE WORKED AND LIVED IN </UL>
+	        <ol><li>SAINT LOUIS, MISSOURI</LI>
+	        <li>MARISSA, ILLINOIS</li>
+	        <li>RUSHVILLE, ILLINOIS</li>
+	        <li>CLINTON, MISSOURI</li>
+	        <li>KANSAS CITY, MISSOUI</li>
+	        <li>LAGRANGE, GEORGIA</li>
+	        <li>TOLEDO, OHIO</LI>
+	        <li>HOUSTON, TEXAS</li>
+	        <li>FORT SMITH, ARKANSAS</li>
+	        <li>AMARILLO, TEXAS</li>
+	        <li>MOUNT VERNON, OHIO</lI>
+	        <li>PHOENIX, ARIZONA</li>
+	        <li>CHARLOTTE, NORTH CAROLINA</li>
+	        
+	
+	
+	
+	</body>
+</html>
+
