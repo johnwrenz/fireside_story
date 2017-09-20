@@ -25,15 +25,18 @@ form ="""
             </head>
             <body>
                 <form action="/add" method="POST">
-                    <input type="text" id="rot" name="rot"/>
+                    <label ="Rotate by"
+                    <input type="text" id="rot" name="rot" value="0"/>
                     <input type="textarea" id="text" name="text"/>
-                create your form here -->
+                    <input type="submit"/>
+                
             </body>
         </html>   
         """ 
 
-@app.route("/")
-def index():
+@app.route("/add")
+def add():
+    request.args.get("Rotate by")
+    return 
 
-
-    app.run()
+app.run()
