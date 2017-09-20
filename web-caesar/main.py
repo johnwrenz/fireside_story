@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
@@ -34,9 +34,9 @@ form ="""
         </html>   
         """ 
 
-@app.route("/add")
+@app.route("/")
 def add():
     request.args.get("Rotate by")
-    return source 
+    return form 
 
 app.run()
