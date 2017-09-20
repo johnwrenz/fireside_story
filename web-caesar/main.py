@@ -37,6 +37,6 @@ form ="""
 @app.route("/add")
 def add():
     request.args.get("Rotate by")
-    return 
+    return source 
 
 app.run()
