@@ -25,7 +25,7 @@ form ="""
             </head>
             <body>
                 <form action="/add" method="POST">
-                    <label ="Rotate by"
+                    <label>Rotate By:</label>
                     <input type="text" id="rot" name="rot" value="0"/>
                     <input type="textarea" id="text" name="text"/>
                     <input type="submit"/>
@@ -36,7 +36,7 @@ form ="""
 
 @app.route("/")
 def add():
-    request.args.get("Rotate by")
+    request.args.get("Rotate")
     return form 
 
 app.run()
