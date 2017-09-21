@@ -1,4 +1,5 @@
 from flask import Flask, request
+from caesar import rotate_string
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
@@ -16,7 +17,7 @@ form ="""
                         font: 16px sans-serif;
                         border-radius: 10px;
                     }
-                    textarea {
+                    <textarea> {
                         margin: 10px 0;
                         width: 540px;
                         height: 120px;
@@ -26,9 +27,13 @@ form ="""
             <body>
                 <form action="/add" method="POST">
                     <label>Rotate By:</label>
-                    <input type="text" id="rot" name="rot" value="0"/>
-                    <input type="textarea" id="text" name="text"/>
-                    <input type="submit"/>
+                    <input type="text" name="rot" value="0"/>
+                    
+                    <p><input type="textarea" name="text"/></p>
+                    <p><input type="submit"/></p>
+
+                encrypt    
+
                 
             </body>
         </html>   
