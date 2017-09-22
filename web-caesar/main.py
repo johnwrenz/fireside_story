@@ -43,4 +43,7 @@ def add():
     request.args.get("Rotate")
     return form 
 
+@app.route("/")
+def encrypt():
+
 app.run()
