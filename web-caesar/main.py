@@ -31,10 +31,7 @@ form ="""
                     <p><input type="textarea" name="text"/></p>
                     <p><input type="submit"/></p>
 
-                encrypt    
-
-                
-            </body>
+                </body>
         </html>   
         """ 
 
