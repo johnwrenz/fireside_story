@@ -9,40 +9,41 @@ form = """
         <html>
             <head>
                 <style>
-                    form {
+                    form {{
                         background-color: #eee;
                         padding: 20px;
                         margin: 0 auto;
                         width: 540px;
                         font: 16px sans-serif;
                         border-radius: 10px;
-                    }
-                    <textarea> {
+                    }}
+                    textarea {{
                         margin: 10px 0;
                         width: 540px;
                         height: 120px;
-                    }
+                    }}
                 </style>
             </head>
             <body>
-                <form action="/add" method="POST">
+                <form action="/" method="POST">
                     <label for="rot">Rotate By:</label>
                     <input id="rot" type="text" name="rot" value="0"/>
-                    <p><input type="textarea" name="text"/></p>
-                    <p><input type="submit"/></p>
+                    <input textarea name="text" {""}/>
+                    <input type="submit"/>
 
                 </body>
         </html>   
         """ 
 
-@app.route("/")
+@app.route("/", methods=['GET'])
 def add():
-    rotate_by = request.args.get("Rotate")
-    return form 
+    return form.format("") 
 
-@app.route("/add", methods=['POST'])
+@app.route("/", methods=['POST'])
 def encrypt():
     text = request.form["text"]
-    return text
+    rotate_by = int(request.form["rot"])
+    caesar_text = rotate_string(text,rotate_by)
+    return form.format(caesar_text)
 
 app.run()
