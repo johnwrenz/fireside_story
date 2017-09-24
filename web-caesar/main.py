@@ -5,7 +5,6 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 form = """
     <!DOCTYPE html>
-
         <html>
             <head>
                 <style>
@@ -28,8 +27,8 @@ form = """
                 <form action="/" method="POST">
                     <label for="rot">Rotate By:</label>
                     <input id="rot" type="text" name="rot" value="0"/>
-                    <input textarea name="text" {""}/>
-                    <input type="submit"/>
+                    <p><input textarea name="text">{0}</></p>
+                    <p><input type="submit"/></p>
 
                 </body>
         </html>   
@@ -37,13 +36,15 @@ form = """
 
 @app.route("/", methods=['GET'])
 def add():
-    return form.format("") 
+    return form.format("")
+
+
 
 @app.route("/", methods=['POST'])
 def encrypt():
     text = request.form["text"]
     rotate_by = int(request.form["rot"])
-    caesar_text = rotate_string(text,rotate_by)
-    return form.format(caesar_text)
+    caesartext = rotate_string(text,rotate_by)
+    return form.format(caesartext)
 
 app.run()
